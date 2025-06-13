@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DANORTE Abogados</title>
+  <link rel="stylesheet" href="estilos.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/yourkit.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>DANORTE Abogados</h1>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="inicio">
+    <div class="container">
+      <h2>Tu tranquilidad, nuestra prioridad</h2>
+      <p>Asesoría legal honesta, cercana y especializada para proteger lo que más valoras.</p>
+      <a href="#contacto" class="btn">Contáctanos</a>
+    </div>
+  </section>
+
+  <section id="nosotros" class="bg-light section-padded">
+    <div class="container">
+      <h2>Sobre Nosotros</h2>
+      <div class="about-content">
+        <img src="images/despacho.jpg" alt="Foto del despacho" class="profile-image" />
+        <div class="bio-text">
+          <h3>Más de 15 años de experiencia</h3>
+          <p>En DANORTE Abogados combinamos tradición y cercanía con resultados. Nuestro despacho brinda servicios legales con un trato humano, soluciones eficaces y compromiso con nuestros clientes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicios" class="section-padded">
+    <div class="container">
+      <h2>Servicios</h2>
+      <div class="services-grid">
+        <div class="service-item">
+          <i class="fas fa-gavel"></i>
+          <h3>Derecho Civil</h3>
+          <p>Resolución de conflictos familiares, herencias, contratos y más.</p>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-briefcase"></i>
+          <h3>Asesoría Corporativa</h3>
+          <p>Apoyo legal para empresas y emprendedores en cada etapa.</p>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-home"></i>
+          <h3>Bienes Raíces</h3>
+          <p>Revisión de contratos, litigios de propiedad y trámites notariales.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="bg-light section-padded">
+    <div class="container">
+      <h2>Contacto</h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p><i class="fas fa-phone-alt"></i> +52 81 1234 5678</p>
+          <p><i class="fas fa-envelope"></i> contacto@danorteabogados.com</p>
+          <p><i class="fas fa-map-marker-alt"></i> Monterrey, Nuevo León</p>
+        </div>
+        <div class="contact-form">
+          <form>
+            <div class="form-group">
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" name="nombre" required />
+            </div>
+            <div class="form-group">
+              <label for="correo">Correo Electrónico</label>
+              <input type="email" id="correo" name="correo" required />
+            </div>
+            <div class="form-group">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 DANORTE Abogados. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
