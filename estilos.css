@@ -1,14 +1,25 @@
+/* Paleta Azul + Gris */
+:root {
+    --color-primary: #2563eb;         /* Azul principal */
+    --color-primary-dark: #1d4ed8;    /* Azul oscuro (hover, headers) */
+    --color-bg: #f3f4f6;              /* Fondo gris claro */
+    --color-text: #1f2937;            /* Texto oscuro gris-azulado */
+    --color-white: #ffffff;
+}
+
+/* Reset y fuente base */
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    color: #00332E;
+    background-color: var(--color-bg);
+    color: var(--color-text);
 }
 
+/* Header */
 header {
-    background-color: #00332E;
-    color: white;
+    background-color: var(--color-primary-dark);
+    color: var(--color-white);
     padding: 20px 0;
     text-align: center;
 }
@@ -18,6 +29,7 @@ header h1 {
     font-size: 2em;
 }
 
+/* Navegación */
 nav ul {
     list-style: none;
     padding: 0;
@@ -28,16 +40,21 @@ nav ul {
 }
 
 nav ul li a {
-    color: white;
+    color: var(--color-white);
     text-decoration: none;
     font-weight: bold;
 }
 
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero */
 .hero {
     background-color: #e7e7e7;
     text-align: center;
     padding: 60px 20px;
-    color: #00332E;
+    color: var(--color-primary-dark);
 }
 
 .hero h2 {
@@ -50,14 +67,16 @@ nav ul li a {
     font-size: 1.2em;
 }
 
+/* Secciones generales */
 section {
     padding: 40px 20px;
     text-align: center;
 }
 
+/* Footer */
 footer {
-    background-color: #00332E;
-    color: white;
+    background-color: var(--color-primary-dark);
+    color: var(--color-white);
     padding: 20px 0;
     text-align: center;
 }
